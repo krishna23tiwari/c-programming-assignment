@@ -1,0 +1,386 @@
+1) reverse number :
+68491 
+
+19486 
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 68491;
+    int rem, sum =0;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum*10+rem;
+        a = a/10; 
+    }
+    
+    printf("%d", sum);
+
+    return 0;
+}
+
+
+2) 4619
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 4619;
+    int rem, sum =0;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum*10+rem;
+        a = a/10; 
+    }
+    
+    printf("%d", sum);
+
+    return 0;
+}
+
+3)
+palindrome number :
+
+12321
+#include <stdio.h>
+
+int main()
+{
+    int a= 12321;
+    int rem, sum =0;
+    int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum*10+rem;
+        a = a/10; 
+    }
+    
+    if (tmp == sum)
+    {
+        printf("pallidrome number");
+    }
+    else
+    {
+    printf("not pallidrome");
+    }
+
+    return 0;
+}
+
+4)  123421  
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 123421;
+    int rem, sum =0;
+    int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum*10+rem;
+        a = a/10; 
+    }
+    
+    if (tmp == sum)
+    {
+        printf("pallidrome number");
+    }
+    else
+    {
+    printf("not pallidrome");
+    }
+
+    return 0;
+}
+
+5) armstrong number 153
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 153;
+    int rem, sum =0;
+    int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum+rem*rem*rem;
+        a = a/10; 
+    }
+    
+    if (tmp == sum)
+    {
+        printf("armstrong number");
+    }
+    else
+    {
+    printf("not armstrong");
+    }
+
+    return 0;
+}
+
+6) armstrong number 152
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 152;
+    int rem, sum =0;
+    int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum+rem*rem*rem;
+        a = a/10; 
+    }
+    
+    if (tmp == sum)
+    {
+        printf("armstrong number");
+    }
+    else
+    {
+    printf("not armstrong");
+    }
+
+    return 0;
+}
+
+7) armstrong number 151
+
+#include <stdio.h>
+
+int main()
+{
+    int a= 151;
+    int rem, sum =0;
+    int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum+rem*rem*rem;
+        a = a/10; 
+    }
+    
+    if (tmp == sum)
+    {
+        printf("armstrong number");
+    }
+    else
+    {
+    printf("not armstrong");
+    }
+
+    return 0;
+}
+
+8) neon number 
+
+#include <stdio.h>
+ 
+int main()
+{
+    int a, b,c, sum =0;
+    
+    printf("Enter a number: \n");
+    scanf("%d",&a);
+
+    c = a*a;
+
+    while(c!=0){
+        b = c%10;
+        sum = b+sum;
+        c = c/10;
+    }
+    
+    if(sum == a)
+        printf("Neon Number \n");
+    else
+        printf("Not a Neon Number \n");
+ 
+    return 0;
+}
+
+9) perfect number :
+
+#include <stdio.h>
+ 
+int main()
+{
+    int a,sum =0;
+    int i =1;
+    printf("Enter a number: \n");
+    scanf("%d",&a);
+
+    while(i<a)
+     {
+         if(a%i ==0)
+         {
+             sum = sum+i;
+         }
+        i++;
+     }
+    
+    if(sum == a)
+        printf("perfect number \n");
+    else
+        printf("Not perfect Number \n");
+ 
+    return 0;
+}
+
+10) r :reverse number 
+a :Armstrong number 
+n :neon number 
+p :palindrome 
+t :perfect number
+
+#include <stdio.h>
+ 
+int main()
+{
+    char x;
+    printf("select your choice\n");
+    printf("r. reverse number\n a. armstrong number\n n. neon number\n p. palidrome number\n t. perfect number\n");
+    scanf("%c", &x);
+    
+    if(x == 'r')
+    {
+        int a;
+        printf("enter a number\n");
+        scanf("%d", &a);
+        int rem, sum =0;
+    
+        while(a>0)
+        {
+            rem = a%10;
+            sum = sum*10+rem;
+            a = a/10; 
+        }
+    
+        printf("%d", sum);
+   
+     }
+    
+    if(x == 'a')
+    {
+        int a;  
+        int rem, sum =0;
+        printf("enter a number\n");
+        scanf("%d", &a);
+        int tmp = a;
+        printf("%d ",sum);
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum+rem*rem*rem;
+        a = a/10; 
+        printf("%d \n",sum);
+    }
+    printf("%d %d",tmp,sum);
+    if (tmp == sum)
+    {
+        printf("armstrong number");
+    }
+    else
+    {
+    printf("not armstrong");
+    }
+
+    }
+    
+    if(x == 'n')
+    {
+        int a, b,c, sum =0;
+    
+    printf("Enter a number: \n");
+    scanf("%d",&a);
+
+    c = a*a;
+
+    while(c!=0)
+    {
+        b = c%10;
+        sum = b+sum;
+        c = c/10;
+    }
+    
+    if(sum == a)
+        printf("Neon Number \n");
+    else
+        printf("Not a Neon Number \n");
+ 
+    }
+    
+    if(x == 'p')
+    {
+        int a;
+        int rem, sum =0;
+        printf("enter a number\n");
+        scanf("%d",&a);
+        int tmp = a;
+    
+    while(a>0)
+    {
+        rem = a%10;
+        sum = sum*10+rem;
+        a = a/10; 
+        printf("%d\n",a);
+    }
+    
+    if (tmp == sum)
+    {
+        printf("pallidrome number");
+    }
+    else
+    {
+    printf("not pallidrome");
+    }
+    }
+    
+    
+    if(x =='t')
+    {
+    int a,sum =0;
+    int i =1;
+    printf("Enter a number: \n");
+    scanf("%d",&a);
+
+    while(i<a)
+     {
+         if(a%i ==0)
+         {
+             sum = sum+i;
+         }
+        i++;
+     }
+    
+    if(sum == a)
+    {
+        printf("perfect number \n");
+    }
+    else
+    {
+        printf("Not perfect Number \n");
+    }
+    }
+    return 0;
+}
+

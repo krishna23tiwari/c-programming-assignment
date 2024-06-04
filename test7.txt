@@ -1,0 +1,753 @@
+1)week days 
+1:sun 
+2:mon
+7 days
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your number\n");
+    scanf("%d", &a);
+    
+    if(a == 1)
+        {
+            printf("sunday");
+        }
+        
+        else if( a == 2)
+        {
+            printf("monday");
+        }
+        
+        else if( a == 3)
+        {
+            printf("tuesday");
+        }
+        
+         else if( a == 4)
+        {
+            printf("wednesday");
+        }
+        
+        else if( a == 5)
+        {
+            printf("thrusday");
+        }
+        
+         else if( a == 6)
+        {
+            printf("friday");
+        }
+        
+        else if( a == 7)
+        {
+            printf("saturday");
+        }
+        
+        
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+2)month print 
+total 12
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your number\n");
+    scanf("%d", &a);
+    
+    if(a == 1)
+        {
+            printf("january");
+        }
+        
+        else if( a == 2)
+        {
+            printf("febuary");
+        }
+        
+        else if( a == 3)
+        {
+            printf("march");
+        }
+        
+         else if( a == 4)
+        {
+            printf("april");
+        }
+        
+        else if( a == 5)
+        {
+            printf("may");
+        }
+        
+         else if( a == 6)
+        {
+            printf("june");
+        }
+        
+        else if( a == 7)
+        {
+            printf("july");
+        }
+        
+        else if( a == 8)
+        {
+            printf("august");
+        }
+        
+        else if( a == 9)
+        {
+            printf("september");
+        }
+        
+         else if( a == 10)
+        {
+            printf("october");
+        }
+        
+        else if( a == 11)
+        {
+            printf("november");
+        }
+        
+         else if( a == 12)
+        
+        {
+            printf("december");
+        }
+    
+        
+        
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+3)number system 
+1-->10
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your number\n");
+    scanf("%d", &a);
+    
+    if(a == 1)
+        {
+            printf("one");
+        }
+        
+        else if( a == 2)
+        {
+            printf("two");
+        }
+        
+        else if( a == 3)
+        {
+            printf("three");
+        }
+        
+         else if( a == 4)
+        {
+            printf("four");
+        }
+        
+        else if( a == 5)
+        {
+            printf("five");
+        }
+        
+         else if( a == 6)
+        {
+            printf("six");
+        }
+        
+        else if( a == 7)
+        {
+            printf("seven");
+        }
+        
+        else if( a == 8)
+        {
+            printf("eight");
+        }
+        
+        else if( a == 9)
+        {
+            printf("nine");
+        }
+        
+         else if( a == 10)
+        {
+            printf("ten");
+        }
+        
+    
+        
+        
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+
+4)
+a :apple 
+
+b :ball 
+
+c :cat 
+
+d :dolphin 
+
+input not match
+
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your number\n");
+    scanf("%c", &a);
+    
+    if(a =='a')
+        {
+            printf("apple");
+        }
+        
+        else if(a == 'b')
+        {
+            printf("ball");
+        }
+        
+        else if(a == 'c')
+        {
+            printf("cat");
+        }
+        else if(a == 'd')
+        {
+            printf("dolphin");
+        }
+        
+        
+        
+    
+        
+        
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+
+5)vowel and consoant if else if 
+
+a , e , i , o , u 
+
+consonant
+
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your number\n");
+    scanf("%c", &a);
+    
+    if(a =='a' || a == 'e' || a == 'i' ||  a == 'o' || a == 'u')
+    {
+        printf("vowels");
+    }
+
+        else
+        {
+            printf("consonant");
+        }
+    
+    
+    return 0;
+}
+
+6) a,b,c,d :upper line 
+
+e,f,g,h :second line 
+
+i,j,k,l :third line
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your number\n");
+    scanf("%c", &a);
+    
+    if(a =='a' || a == 'b' || a == 'c' ||  a == 'd')
+    {
+        printf("upper line");
+    }
+    
+    else if(a =='e' || a == 'f' || a == 'g' ||  a == 'h')
+        {
+            printf("second line");
+        }
+        
+    else if(a =='i' || a == 'j' || a == 'k' ||  a == 'l')
+        {
+            printf("third line");
+        }
+    
+
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+7) q,w,e,r,t,y,u,i,o,p :upper line 
+
+a,s,,f,,h,,k,l :mid line 
+
+z,x,c,v,b,n,m :lower line
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your number\n");
+    scanf("%c", &a);
+    
+    if(a =='q' || a == 'w' || a == 'e' ||  a == 'r' || a =='t' || a == 'y' || a == 'u' ||  a == 'i' || a == 'o' ||a=='p')
+    {
+        printf("upper line");
+    }
+    
+    else if(a =='a' || a == 's' || a == 'f' ||  a == 'h' || a == 'k' || a == 'l')
+        {
+            printf("mid line");
+        }
+        
+    else if(a =='z' || a == 'x' || a == 'c' ||  a == 'v' || a =='b' || a == 'n' || a == 'm')
+        {
+            printf("lower line");
+        }
+    
+
+        else
+        {
+            printf("input is not valid");
+        }
+    
+    
+    return 0;
+}
+
+8) p,e,a,k :peak 
+
+a,p,l,e :apple 
+
+c,a,t :cat 
+
+input :e (peak and apple)
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a =='p' || a == 'e' || a == 'a' ||a=='k')
+    {
+        printf("peak\n");
+    }
+    
+    else if(a =='a' || a == 'p' || a == 'p' ||  a == 'l' || a == 'e')
+        {
+            printf("apple");
+        }
+        
+    else if(a =='c' || a == 'a' || a == 't')
+        {
+            printf("cat");
+        }
+        
+        else
+        {
+            printf("input is not valid");
+        }
+        
+       
+    
+    if(a == 'e')
+    {
+        printf("apple");
+    }
+    
+    else if( a == 'a')
+    {
+        printf("apple\ncat");
+    }
+
+       
+    
+    
+    return 0;
+}
+
+
+9) 
+number :2,3,4,5 
+2 :divide by 2 
+
+3 :divide by 3 
+
+4 :divide by 4 
+
+5 :divide by 5
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your numbers\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 || a%4 == 0)
+    {
+        printf("the number is devide by 2 and 4");
+    }
+ 
+    else if(a%3==0)
+    {
+        
+        printf("the number is devide by 3");
+    }
+    
+    
+    else if(a%5==0)
+    {
+        
+        printf("the number is devide by 5");
+    }
+     
+  else
+  {
+      printf("invalid input");
+  }
+       
+    return 0;
+}
+
+
+10) 
+number :check 
+
+2 and 3 both (2 and 3 divisible)
+
+4 and 5 (4 and divisible both)
+
+2 and 3 anyone (2 and 3 divisible)
+
+4 and 5 (4 and divisible anyone)
+
+input mismatch
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your numbers\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 && a%3 == 0)
+    {
+        printf("the number is devide by 2 and 3");
+    }
+ 
+    else if(a%4==0 && a%5 == 0)
+    {
+        
+        printf("the number is devide by 4 and 5");
+    }
+    
+    
+    else if(a%2==0 || a%3 == 0)
+    {
+        printf("the number is devide by one number");
+    }
+ 
+    else if(a%4==0 || a%5 == 0)
+    {
+        
+        printf("the number is devide by one number");
+    }
+    
+     else
+  {
+      printf("invalid input");
+  }
+    
+     
+    return 0;
+}
+
+
+11)
+
+s :swap number without third variable 
+
+w :swap number with third variable
+
+input not match
+
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a == 's')
+    {
+        int x,y;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before swap %d and %d\n ", x,y);
+        
+        x = x+y;
+        y = x-y;
+        x = x-y;
+        
+        printf("numbers after swappings are %d and %d", x,y);
+    }
+    
+    else if(a == 'w')
+    {
+        int a,b;
+        printf("enter the value you want to swap\n");
+        scanf("%d %d", &a, &b);
+        printf("the value before swapping is %d and %d\n", a,b);
+
+             a = a+b;
+             b = a-b;
+             a = a-b;
+    
+        printf("the value after swapping is %d and %d", a,b);  
+  
+    }
+    
+    else
+    {
+        printf("input is not valid");
+    }
+       
+    
+    
+    return 0;
+}
+
+12)
+
+a :two number addition 
+
+s :two number substraction 
+
+m:two number multiplication 
+
+d :two number divide 
+
+o :modular
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a == 'a')
+    {
+        int x,y,z;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before additions %d and %d\n ", x,y);
+        
+        z = x+y;
+        printf("the result is %d", z);
+    }
+    
+    else if(a == 's')
+    {
+        int x,y,z;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before subtraction %d and %d\n ", x,y);
+        
+        z = x-y;
+        printf("the result is %d", z);
+    }
+    
+    else if(a == 'm')
+    {
+        int x,y,z;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before multiplication %d and %d\n ", x,y);
+        
+        z = x*y;
+        printf("the result is %d", z);
+    }
+    
+    else if(a == 'd')
+    {
+        int x,y,z;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before division %d and %d\n ", x,y);
+        
+        z = x/y;
+        printf("the result is %d", z);
+    }
+    
+    else if(a == 'o')
+    {
+        int x,y,z;
+        printf("enter two numbers\n");
+        scanf("%d %d",&x, &y);
+        printf("the numbers before additions %d and %d\n ", x,y);
+        
+        z = x%y;
+        printf("the result is %d", z);
+    }
+    
+    
+    else
+    {
+        printf("input is not valid");
+    }
+       
+    
+    
+    return 0;
+}
+
+13)
+
+1----->10 between 1 to 10
+
+11-->20 between 11 to 20
+
+21-->30 between 21 to 30
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter your number\n");
+    scanf("%d", &a);
+    
+    if(a>=1 && a <=10)
+    {
+        printf("the number between 1 to 10");
+    }
+    
+    else if(a>=11 && a <= 20)
+    {
+        
+        printf("the number between 11 to 20");
+    }
+    
+    else if(a>=21 && a <= 30)
+    {
+        
+        printf("the number between 21 to 30");
+    }
+    
+    
+    
+    else
+    {
+        printf("input is not valid");
+    }
+       
+    
+    
+    return 0;
+}
+
+14)
+
+two number maximum through if else if
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter your numbers\n");
+    scanf("%d %d", &a ,&b);
+    
+    if(a>b)
+    {
+        printf("the %d is greater than %d", a,b);
+    }
+    
+      
+    else if(b>a)
+    {
+        
+        printf("the %d is greater than %d", b,a);
+    }
+    
+  else
+  {
+      printf("invalid input");
+  }
+    
+   
+    return 0;
+}
+
+
+

@@ -1,0 +1,373 @@
+1)vowel and consonant
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='a'|| a == 'e' || a == 'i' || a =='o'|| a == 'u')
+        {
+            printf("vowels");
+        }
+        else
+        {
+            printf("consonant");
+        }
+    
+    return 0;
+}
+
+2)p,e,a,k :this is peak word input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='p'|| a == 'e' || a == 'a' || a =='k')
+        {
+            printf("peak");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+3)q,w,e,r,t,y,u,i,o,p :upper line 
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='q'|| a == 'w' || a == 'e' || a =='r' || a == 't' || a == 'y' || a == 'u' || a == 'i' || a == 'o' || a == 'p')
+        {
+            printf("upper line");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+4)a,s,d,,g,j,k,l :mid line 
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='a'|| a == 's' || a == 'd' || a =='g' || a == 'j' || a == 'k' || a == 'l')
+        {
+            printf("mid line");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+5)z,x,c,v,b,n,m
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='a'|| a == 'x' || a == 'c' || a =='v' || a == 'b' || a == 'n' || a == 'm')
+        {
+            printf("match");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+6)1--->5 between number 
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter a character\n");
+    scanf("%d", &a);
+    
+    if(a>=1 && a<=5)
+        {
+            printf("match");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+7)11--->20 between number 
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter a character\n");
+    scanf("%d", &a);
+    
+    if(a>=11 && a<=20)
+        {
+            printf("match");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+8)23--->56 between number 
+	input mismatch
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter a character\n");
+    scanf("%d", &a);
+    
+    if(a>=23 && a<=56)
+        {
+            printf("match");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+
+9) five subject marks greater 36 
+	average calculate 
+fail  
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f,g;
+    printf("enter your numbers\n");
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+    
+    f = a+b+c+d+e;
+
+    printf("the total numbers are %d\n",f);
+    
+    if(f>=36)
+        {
+            g = f/5;
+            printf("the average is %d\n",g);
+        }
+        else
+        {
+            printf("fail");
+        }
+    
+    return 0;
+}
+
+10) 3 subject marks greater 33
+	percentage :print 
+fail
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,d,e;
+    int f = 300;
+    printf("enter your numbers\n");
+    scanf("%d %d %d", &a, &b, &c);
+    
+    d = a+b+c;
+
+    printf("the total numbers are %d\n",d);
+    
+    if(d>=33)
+        {
+            e = (d*100)/f;
+            printf("the percentage is %d\n",e);
+        }
+        else
+        {
+            printf("fail");
+        }
+    
+    return 0;
+}
+
+11)5 marks 
+	percentage :
+	75--->99 Eligible for JEE
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,d,e,f,g;
+    printf("enter your numbers\n");
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+    
+    f = a+b+c+d+e;
+
+    printf("the total numbers are %d\n",f);
+
+    g = (f*100)/500;
+    
+    if(g >= 75)
+        {
+            printf("eligible");
+        }
+        else
+        {
+            printf("fail");
+        }
+    
+    return 0;
+}
+
+12)user input :
+a--z :this is character 
+
+you are not valid
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a>='a' && a <= 'z')
+        {
+
+            printf("character");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+13)
+user input :
+A--Z :this is character 
+
+you are not valid
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a>='A' && a <= 'Z')
+        {
+
+            printf("character");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+14)
+user input :
+a--z and A-Z:this is character
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter your character\n");
+    scanf("%c", &a);
+    
+    if(a>='A' && a <= 'Z' || a >= 'a' && a <= 'z')
+        {
+
+            printf("character");
+        }
+        else
+        {
+            printf("mismatched");
+        }
+    
+    return 0;
+}
+
+15)input two number and check which one greater
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter your numbers\n");
+    scanf("%d %d", &a, &b);
+    
+    if(a > b)
+        {
+
+            printf("this number is greater %d",a);
+        }
+              else
+                {
+            printf("this number is greater %d", b);
+                 }
+    return 0;
+}
+ 

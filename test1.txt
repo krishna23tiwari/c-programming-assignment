@@ -1,0 +1,141 @@
+1)five friends name
+
+#include<stdio.h>
+
+int main()
+{
+    printf("jatin");
+    printf("milind");
+    printf("lalit");
+    printf("kamal");
+    printf("ankit");
+    
+    return 0;
+}
+
+2)five country name (new line)
+
+#include<stdio.h>
+
+int main()
+{
+    printf("india\n");
+    printf("china\n");
+    printf("england\n");
+    printf("japan\n");
+    printf("australia\n");
+    
+    return 0;
+}
+
+
+3)five city name
+
+#include<stdio.h>
+
+int main()
+{
+    printf("jaipur");
+    printf("delhi");
+    printf("mumbai");
+    printf("banglore");
+    printf("hyderabad");
+    
+    return 0;
+}
+
+4)five fav food name (new line)
+
+#include<stdio.h>
+
+int main()
+{
+    printf("aloo paratha\n");
+    printf("dosa\n");
+    printf("pav bhaji\n");
+    printf("rice\n");
+    printf("idli\n");
+    
+    return 0;
+}
+
+5)five fruit name
+
+#include<stdio.h>
+
+int main()
+{
+    printf("apple");
+    printf("mango");
+    printf("banana");
+    printf("grapes");
+    printf("kiwi");
+    
+    return 0;
+}
+
+6) 3.4
+
+#include<stdio.h>
+
+int main()
+{
+    float a = 3.4;
+    printf("%f", a);
+    
+    return 0;
+}
+
+7) t 
+
+#include<stdio.h>
+
+int main()
+{
+    char a = 't';
+    printf("%c", a);
+    
+    return 0;
+}
+
+8) 29
+
+#include<stdio.h>
+
+int main()
+{
+    char a = 29;
+    printf("%d", a);
+    
+    return 0;
+}
+
+
+9) print  
+67 
+o
+-9.8
+-3
+92
+-8.9
+
+#include<stdio.h>
+
+int main()
+{
+    char a = 'o';
+    int b = 67;
+    int c = -3;
+    int d = 92;
+    float e = -9.8;
+    float f = -8.9;
+    
+    printf("%d\n",b);
+    printf("%c\n",a);
+    printf("%f\n",e);
+    printf("%d\n",c);
+    printf("%d\n",d);
+    printf("%f\n",f);
+    
+    return 0;
+}

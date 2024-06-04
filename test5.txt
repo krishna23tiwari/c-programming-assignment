@@ -1,0 +1,557 @@
+1)check a number is greater than 10 or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a > 10)
+    {
+        printf("the number is greater than 10");
+    }
+    
+    return 0;
+}
+
+2)check a number is greater than 50 or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a > 50)
+    {
+        printf("the number is greater than 10");
+    }
+    
+    return 0;
+}
+
+3)check a number is less than 100 or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a < 100)
+    {
+        printf("the number is less than 100");
+    }
+    
+    return 0;
+}
+
+4)check a number is even or odd ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%2 == 0)
+    {
+        printf("the number is even");
+    }
+    else
+    {
+        printf("the number is odd");
+    }
+    
+    return 0;
+}
+
+5)check a number is divisible by 5 or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%5 == 0)
+    {
+        printf("the number is divisable by 5");
+    }
+    else
+    {
+        printf("the number is not divisable by 5");
+    }
+    
+    return 0;
+}
+
+6)check a number is dvisible by 72 or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%72 == 0)
+    {
+        printf("the number is divisable by 72");
+    }
+    else
+    {
+        printf("the number is not divisable by 72");
+    }
+    
+    return 0;
+}
+
+7)when user input a then print apple  input is not matched
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'a')
+    {
+        printf("apple input is not matched");
+    }
+    else
+    {
+        printf("try again");
+        
+    }    
+    
+    return 0;
+}
+
+8)when user input b then print ball input is not matched
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'b')
+    {
+        printf("ball");
+    }
+    else
+    {
+        printf("input is not match");
+        
+    }    
+    
+    return 0;
+}
+
+9)user input a character a :two number addition 
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'a')
+    {
+        int a,b,c;
+        printf("enter two values\n");
+        scanf("%d %d", &a,&b );
+        c = a+b;
+        printf("the sum of %d and %d is %d", a,b,c);
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+10)user input a character s :two number substraction
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 's')
+    {
+        int a,b,c;
+        printf("enter two values\n");
+        scanf("%d %d", &a,&b );
+        c = a-b;
+        printf("the substraction of %d and %d is %d", a,b,c);
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+11)user input a character m :two number multiplication
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'm')
+    {
+        int a,b,c;
+        printf("enter two values\n");
+        scanf("%d %d", &a,&b );
+        c = a*b;
+        printf("the multiplication of %d and %d is %d", a,b,c);
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+12)user input a character d :two number divide 
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'd')
+    {
+        int a,b,c;
+        printf("enter two values\n");
+        scanf("%d %d", &a,&b );
+        c = a/b;
+        printf("the multiplication of %d and %d is %d", a,b,c);
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+13)user input a character s :two number swap without third variable
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 's')
+    {
+        int a,b;
+        printf("enter the value you want to swap\n");
+        scanf("%d %d", &a, &b);
+        printf("the value before swap is %d and %d\n", a,b);
+        
+         a = a+b;
+         b = a-b;
+         a = a-b;
+    
+        printf("the value after swapping is %d and %d", a,b);  
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+14)user input a character w :two number swap with third variable
+
+#include<stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the value\n");
+    scanf("%c", &a);
+    
+    if(a == 'w')
+    {
+        int a,b;
+        printf("enter the value you want to swap\n");
+        scanf("%d %d", &a, &b);
+        printf("the value before swapping is %d and %d\n", a,b);
+
+             a = a+b;
+             b = a-b;
+             a = a-b;
+    
+        printf("the value after swapping is %d and %d", a,b);  
+  
+    }
+    
+    else
+    
+    {
+        printf("input is not valid");
+    }
+    
+    return 0;
+}
+
+15)input a number and a number is divisible by both 2 and 4
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 && a%4==0)
+    {
+        printf("the number is divisable");
+  
+    }
+    
+    else
+    
+    {
+        printf("the number is not divisable");
+    }
+    
+    return 0;
+}
+
+16)input a number and a number is divisible by anyone 2 and 9
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 || a%9==0)
+    {
+        printf("the number is divisable");
+  
+    }
+    
+    else
+    
+    {
+        printf("the number is not divisable");
+    }
+    
+    return 0;
+}
+
+
+17)input a number and a number is divisible by multiple of 7  and 3
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a,d;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    int b = 7;
+    int c = 3;
+    d = b*c;
+    
+    
+    if(d%a == 0)
+    {
+        printf("the number is divisable");
+  
+    }
+    
+    else
+    
+    {
+        printf("the number is not divisable");
+    }
+    
+    return 0;
+}
+
+18)check a age is valid for vote or not ?
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    
+    if(a>18)
+    {
+        printf("you are able to vote");
+  
+    }
+    
+    else
+    
+    {
+        printf("you are not authorized to vote");
+    }
+    
+    return 0;
+}
+
+19)input number 1 :one otherwise not match
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    
+    if(a==1)
+    {
+        printf("one");
+  
+    }
+    
+    else
+    
+    {
+        printf("not match");
+    }
+    
+    return 0;
+}
+
+20)input number 4 :four otherwise not match
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    
+    if(a==4)
+    {
+        printf("four");
+  
+    }
+    
+    else
+    
+    {
+        printf("not match");
+    }
+    
+    return 0;
+}
+
+
+21)input a number and check a number is divisible by 2 , 3, 4,6 both
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 && a%3==0 && a%4==0 && a%6==0 )
+    {
+        printf("the number is divisable");
+  
+    }
+    
+    else
+    
+    {
+        printf("the number is not divisable");
+    }
+    
+    return 0;
+}
+
+
+22)input a number and check a number is divisible by 2 , 3, 4,6 anyone
+
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value\n");
+    scanf("%d", &a);
+    
+    if(a%2==0 || a%3==0 || a%4==0 || a%6==0 )
+    {
+        printf("the number is divisable");
+  
+    }
+    
+    else
+    
+    {
+        printf("the number is not divisable");
+    }
+    
+    return 0;
+}
+
+

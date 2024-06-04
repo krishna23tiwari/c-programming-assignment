@@ -1,0 +1,42 @@
+1) number swap without third variable 
+
+#include <stdio.h>
+
+int main()
+{
+  int a = 20;
+  int b = 10;
+
+  printf("the value before swapping is %d and %d\n", a,b);
+
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    
+   printf("the value after swapping is %d and %d", a,b);  
+    
+
+  return 0;
+}
+
+2) number swap with third variable
+
+#include <stdio.h>
+
+int main()
+{
+  int a = 20;
+  int b = 10;
+  int c;
+
+  printf("the value before swapping is %d and %d\n", a,b);
+
+    c = a;
+    a = b;
+    b = c;
+    
+   printf("the value after swapping is %d and %d", a,b);  
+    
+
+  return 0;
+}

@@ -1,0 +1,667 @@
+1)1--->10 number print
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=10)
+    {
+        printf("%d ",a);
+        a++;
+    }
+    
+    return 0;
+}
+
+2)1----->100 number print
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        printf("%d ",a);
+        a++;
+    }
+    
+    return 0;
+}
+
+3)50---->1000 number print
+
+#include<stdio.h>
+
+int main()
+{
+    int a=50;
+    while(a<=1000)
+    {
+        printf("%d ",a);
+        a++;
+    }
+    
+    return 0;
+}
+
+4)34-->89 number print
+
+#include<stdio.h>
+
+int main()
+{
+    int a=34;
+    while(a<=89)
+    {
+        printf("%d ",a);
+        a++;
+    }
+    
+    return 0;
+}
+
+5)
+5-----1
+
+#include<stdio.h>
+
+int main()
+{
+    int a=5;
+    while(a>=1)
+    {
+        printf("%d ",a);
+        a--;
+    }
+    
+    return 0;
+}
+
+6)
+10----->1
+
+#include<stdio.h>
+
+int main()
+{
+    int a=10;
+    while(a>=1)
+    {
+        printf("%d ",a);
+        a--;
+    }
+    
+    return 0;
+}
+
+7)
+100---->1
+
+#include<stdio.h>
+
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        printf("%d ",a);
+        a--;
+    }
+    
+    return 0;
+}
+
+8) 50--->1
+
+#include<stdio.h>
+
+int main()
+{
+    int a=50;
+    while(a>=1)
+    {
+        printf("%d ",a);
+        a--;
+    }
+    
+    return 0;
+}
+
+
+9)
+78-----45 
+
+#include<stdio.h>
+
+int main()
+{
+    int a=78;
+    while(a>=45)
+    {
+        printf("%d ",a);
+        a--;
+    }
+    
+    return 0;
+}
+
+10)
+1---->10 number sum 
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    int sum =0;
+    while(a<=10)
+    {
+        sum = sum+a;
+        a++;
+    }
+    
+    printf("%d",sum);
+    
+    return 0;
+}
+
+11) 45----->89 number sum
+
+#include<stdio.h>
+
+int main()
+{
+    int a=45;
+    int sum =89;
+    while(a<=89)
+    {
+        sum = sum+a;
+        a++;
+    }
+    
+    printf("%d",sum);
+    
+    return 0;
+} 
+
+12) 1--->10 even
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=10)
+    {
+        if(a%2==0)
+        {
+        printf("%d",a);
+        }
+        
+        a++;
+    }   
+    return 0;
+}
+
+13) 1--->100 even number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+14) 50-->100 even number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=50;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+15) 67--->89 even number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=67;
+    while(a<=89)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+16) 89--->67 even number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=89;
+    while(a>=67)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        
+        a--;
+    }
+    
+    
+    return 0;
+}
+
+17) 100--->1 even number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        
+        a--;
+    }
+    
+    
+    return 0;
+}
+
+18) 1--->10 odd
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=10)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+19) 1--->100 odd number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+20) 50-->100 odd number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=50;
+    while(a<=100)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+21) 67--->89 odd number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=67;
+    while(a<=89)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a++;
+    }
+    
+    
+    return 0;
+}
+
+22) 89--->67 odd number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=89;
+    while(a>=67)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a--;
+    }
+    
+    
+    return 0;
+}
+
+23) 100--->1 odd number
+
+#include<stdio.h>
+
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        
+        a--;
+    }
+    
+    
+    return 0;
+}
+
+24) 1----> 100 even number and sum
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    int sum =0;
+    while(a<=100)
+    {
+        if(a % 2 ==0)
+        {
+            sum = sum+a;
+    
+        }
+         a++;
+    }
+    printf("%d ",sum);
+    
+    return 0;
+}
+
+25) 100--->1 odd number and sum
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    int sum =0;
+    while(a<=100)
+    {
+        if(a % 2 !=0)
+        {
+            sum = sum+a;
+    
+        }
+         a++;
+    }
+    printf("%d ",sum);
+    
+    return 0;
+}
+
+26) 
+user starting point and ending point 
+1--->10 even number
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a=1;
+    while(a<=10)
+    {
+        if(a%2==0)
+        {
+        printf("%d",a);
+        }
+        
+        a++;
+    }   
+    return 0;
+}
+
+27) a :1--->10 number print 
+
+b :45--->3 number print 
+
+p :
+	e :starting point and ending point even number (forward)
+	o :starting point and ending point odd number(backward ) 
+
+s :
+	n:starting point and ending point sum of these numbers 
+	e:starting point and ending point sum of these numbers of even numbers 
+
+	o:starting point and ending point sum of these numbers of odd numbers
+
+
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character\n");
+    scanf(" %c",&a);
+    if(a=='a')
+    {
+        int num=1;
+        while(num<=10)
+        {
+            printf(" %d",num);
+            num++;
+        }
+    }
+   
+   
+        if(a=='b')
+        {
+           
+            int num=45;
+            while(num>= 3)
+            {
+                printf(" %d", num);
+                num-- ;
+            }
+        }
+        
+        
+        if(a=='p')
+        {
+            char c;
+            scanf(" %c",&c);
+            if(c =='e')
+            {
+               
+            int s,e;
+            printf("enter the starting and ending point\n");
+            scanf(" %d %d",&s, &e);
+            while(e>=s)
+                {
+                
+                 if(s%2==0)
+                    {
+                    printf("%d ",s);
+                    }
+                s++;
+                }
+            }
+        
+                
+                
+                if(c =='k')
+                {
+                int s,e;
+                printf("enter entry and exit\n");
+                scanf("%d %d",&s,&e);
+                while(s<=e)
+                {
+                    if(s%2!=0)
+                    {
+                        printf("%d ",s);
+                    }
+                    s++;
+                }
+                }
+         }       
+
+        if(a == 's')
+        {
+            char z;
+            printf("enter chracter\n n. sum of numbers\n  e. even numbers\n o. odd numbers\n");
+            scanf(" %c", &z);
+            
+
+
+                if(z=='n')
+                {
+                    //printf("enter the character");
+ 
+ 
+                 int s,e;
+                 int sum=0;
+                 printf("enter entry and exit point\n");
+                 scanf("%d %d",&s,&e);
+                 while(s<=e)
+                 {
+                     sum=sum+s;
+                 
+                 s++;
+                }
+                 printf("sum of numbers: %d",sum);
+                }
+        
+ 
+ 
+             //char c;
+             //printf("enter the character");
+             //scanf(" %c",&c);
+             if(z=='e')
+             {
+                 int s,e;
+                 int sum=0;
+                 printf("enter entry and exit point\n");
+                 scanf("%d %d",&s,&e);
+                 while(s<=e)
+                 {
+                     if(s%2==0)
+                {
+                         printf("%d \n",s);
+                         
+                     
+                     sum=sum+s;
+                }
+                 
+                 s++;
+             }
+                 printf("sum of numbers: %d",sum);
+             }
+             
+ 
+                 if(z=='o')
+                 {
+                     int s,e;
+                     int sum=0;
+                     printf("enter entry and exit point\n");
+                     scanf("%d %d",&s,&e);
+                     while(s<=e)
+                     {
+                         if(s%2!=0)
+                         {
+                             printf("%d \n",s);
+                
+                
+                             
+                         
+                         sum=sum+s;
+                         }
+                     
+                     s++;
+                   }
+                     printf("sum of numbers: %d",sum);
+                 }
+        }
+ 
+        return 0;
+ }
